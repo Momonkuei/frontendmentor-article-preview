@@ -94,7 +94,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-const showShare = ref(true)
+const showShare = ref(false)
 
 const props = defineProps({
   title: String,
